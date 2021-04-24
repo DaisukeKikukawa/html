@@ -105,8 +105,6 @@ nav a:hover {
 
 /* SNS */
 
-.sns {}
-
 .sns ul {
   list-style: none;
   display: flex;
@@ -282,6 +280,8 @@ ul {
 .item a {
   padding: 15px 20px 15px 6px;
   display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .grid-upper {
@@ -330,8 +330,6 @@ ul {
   border-bottom: 1px dotted #999;
   padding-top: 20px;
 }
-
-.management-policy p {}
 
 .management-policy ul {
   display: grid;
@@ -528,7 +526,8 @@ footer li {
 
 footer p {
   padding-left: 60px;
-  color: #999;
+  color: #333;
+  font-size: 0.5rem;
 }
 
 footer a {
@@ -554,10 +553,6 @@ footer a {
 
 .mgl-5 {
   margin-left: 5px;
-}
-
-.mgr-5 {
-  float: left;
 }
 
 .item-left {
