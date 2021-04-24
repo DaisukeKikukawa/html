@@ -28,6 +28,8 @@ nav a {
 
 nav a:hover {
   color: #0a66c2;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
 }
 
 .main-nav-left {
@@ -64,7 +66,7 @@ nav a:hover {
 }
 
 .breadcrumb {
-  margin-top: 70px;
+  margin-top: 90px;
   display: flex;
   list-style: none;
   color: #999;
@@ -109,7 +111,7 @@ nav a:hover {
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  margin-right: 200px;
+  margin-right: 190px;
 }
 
 .twitter {
@@ -186,8 +188,6 @@ main {
   border: solid 1px #005bac;
   min-height: 50px;
   font-size: 1rem;
-  /* line-height: 1.2; */
-  /* padding: 15px 20px; */
   margin-top: 40px;
   margin-bottom: 40px;
   padding-right: 10px;
@@ -223,7 +223,7 @@ main {
 
 .left {
   color: #0c419a;
-  padding-right: 100px;
+  padding-right: 130px;
   font-size: 1rem;
   line-height: 1.88;
 }
@@ -258,7 +258,6 @@ main {
 .wrapper-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* width: 65%; */
   margin: 0 -10px;
   padding: 0;
 }
@@ -274,10 +273,15 @@ ul {
 
 .item {
   background-color: #fff;
-  padding: 10px;
-  margin: 25px 10px;
+  margin-bottom: 25px;
+  margin-right: 10px;
   text-align: center;
   border: solid 1px #ccc;
+}
+
+.item a {
+  padding: 15px 20px 15px 6px;
+  display: flex;
 }
 
 .grid-upper {
@@ -285,6 +289,7 @@ ul {
   width: 70%;
   margin: 0 auto;
   padding: 25px;
+  margin-bottom: 80px;
 }
 
 .grid-upper p {
@@ -294,7 +299,7 @@ ul {
 /* COMPANY-INFORMATION */
 
 .company-information {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   width: 70%;
   margin: 0 auto;
   margin-top: 100px;
@@ -304,7 +309,7 @@ ul {
   border-bottom: 1px dotted #999;
   padding-bottom: 30px;
   color: #333;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .company-information ul {
@@ -313,6 +318,10 @@ ul {
 
 .company-information ul li {
   padding-top: 20px;
+}
+
+.company-information p {
+  font-weight: bold;
 }
 
 /* MANAGEMENT-POLICY */
@@ -433,7 +442,7 @@ ul {
   margin-bottom: 20px;
   border-top: 2px solid #999;
   border-bottom: 2px solid #999;
-  padding: 30px;
+  padding: 20px;
 }
 
 .follow-us ul {
@@ -459,7 +468,6 @@ ul {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
   border-bottom: 1px solid #ccc;
-  /* padding-bottom: 100px; */
 }
 
 .bottom-index a {
@@ -515,11 +523,17 @@ footer li {
   list-style: none;
   padding-left: 20px;
   color: #999;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 footer p {
   padding-left: 60px;
+  color: #999;
+}
+
+footer a {
+  text-decoration: none;
+  color: #999;
 }
 
 /* span */
@@ -531,8 +545,27 @@ footer p {
 .mgr-10 {
   margin-right: 10px;
   font-size: 0.1rem;
+  color: #999;
 }
 
 .mgr-50 {
   margin-right: 200px;
+}
+
+.mgl-5 {
+  margin-left: 5px;
+}
+
+.mgr-5 {
+  float: left;
+}
+
+.item-left {
+  color: #999;
+  width: 10px;
+  margin-right: 4px;
+}
+
+.item-right {
+  flex: 1;
 }
